@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDITPRO | Premium Short-Form Video Editing & Scripting Agency</title>
+  <meta name="description"
+    content="We transform raw footage into viral 9:16 Instagram Reels, TikToks & YouTube Shorts with dynamic scripting, precision trimming, and high-retention editing.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Glassmorphism Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Ambient Animated Glass Background Blobs -->
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Glass Navbar -->
+  <nav class="navbar glass-panel">
+    <a href="#home" class="logo">
+      <div class="logo-icon">
+        <i class="fas fa-scissors"></i>
+      </div>
+      <span>EDIT<span class="gradient-text">PRO</span></span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#reels">Reel Showcase</a></li>
+      <li><a href="#combination">Services</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#contact">About & Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <!-- Theme Switcher Toggle -->
+      <button class="theme-toggle-btn" id="themeToggleBtn" title="Switch Theme (Dark / Full White)">
+        <i class="fas fa-sun"></i>
+      </button>
+      <a href="#contact" class="btn-primary">
+        <i class="fas fa-paper-plane"></i> Get Started
+      </a>
+    </div>
+  </nav>
+
+  <!-- Section 1: Home Slide / Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="quote-badge">
+            <span class="pulse-dot"></span>
+            <span>VIRAL SHORT FORM EDITING AGENCY</span>
+          </div>
+
+          <h1 class="hero-title">
+            Stop Posting Boring Clips. Turn Footage Into <span class="gradient-text"> Viral Assets.</span>
+          </h1>
+
+          <blockquote class="hero-quote">
+            “Short-form video isn't just content — it's your brand's #1 organic growth machine. We engineer
+            high-retention Reels & Shorts that hook attention in 3 seconds.”
+          </blockquote>
+
+          <div class="hero-ctas">
+            <a href="#reels" class="btn-primary">
+              <i class="fas fa-play"></i> Watch Showcase Reels
+            </a>
+            <a href="#combination" class="btn-secondary">
+              <i class="fas fa-magic"></i> Explore Workflow
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h3>+150M</h3>
+              <p>Organic Views</p>
+            </div>
+            <div class="stat-item">
+              <h3>48-Hour</h3>
+              <p>Turnaround</p>
+            </div>
+            <div class="stat-item">
+              <h3>98.4%</h3>
+              <p>Retention Rate</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Animated Image / Visual Container -->
+        <div class="hero-visual">
+          <div class="visual-glass-card">
+            <img src="assets/images/hero_mockup.jpg" alt="Animated Short Form Video Editing Preview"
+              class="visual-image">
+
+            <!-- Floating Animated Badges -->
+            <div class="floating-badge badge-top-left">
+              <div class="badge-icon">
+                <i class="fas fa-bolt"></i>
+              </div>
+              <div class="badge-text">
+                <h5>Hook Engineered</h5>
+                <p>Top 3s Attention Guard</p>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-right">
+              <div class="badge-icon">
+                <i class="fas fa-fire"></i>
+              </div>
+              <div class="badge-text">
+                <h5>+1.4M Views</h5>
+                <p>Organic Reel Virality</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Four Clean Video Containers (2 x 9:16 & 2 x 16:9 Showcase) -->
+  <section class="reels-section" id="reels">
+    <div class="container">
+      <span class="section-tag">
+        <i class="fas fa-play-circle"></i> Video Portfolio Showcase
+      </span>
+      <h2 class="section-title">
+        Featured <span class="gradient-text">Video Work</span>
+      </h2>
+      <p class="section-desc">
+        Ultra-clean video containers formatted in 9:16 vertical reels & 16:9 landscape videos.
+      </p>
+
+      <!-- 1. Vertical 9:16 Video Containers (2 Cards) -->
+      <div class="video-container-group">
+        <div class="group-header-tag">
+          <i class="fas fa-mobile-alt gradient-text"></i> 9:16 Vertical Reel Containers
+        </div>
+
+        <div class="reels-grid-vertical">
+          <!-- 9:16 Container 1 -->
+          <div class="reel-card glass-panel" id="reelCard1">
+            <div class="reel-frame ratio-9-16">
+              <!-- Google Drive Embed Preview Fallback for 100% Reliable Playback -->
+              <iframe src="https://drive.google.com/file/d/1JO3p9Sey7lx1WVMh1yRNKjtg7-cjbfly/preview" width="100%"
+                height="100%" allow="autoplay" frameborder="0" style="border:none; border-radius:18px;"></iframe>
+            </div>
+          </div>
+
+          <!-- 9:16 Container 2 -->
+          <div class="reel-card glass-panel" id="reelCard2">
+            <div class="reel-frame ratio-9-16">
+              <!-- Google Drive Embed Preview Fallback for 100% Reliable Playback -->
+              <iframe src="https://drive.google.com/file/d/1lH6nA5TP4VFKdgmfQ7YaPQTwunS39gLN/preview" width="100%"
+                height="100%" allow="autoplay" frameborder="0" style="border:none; border-radius:18px;"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Landscape 16:9 Video Containers (2 Cards) -->
+      <div class="video-container-group">
+        <div class="group-header-tag">
+          <i class="fas fa-desktop gradient-text"></i> 16:9 Landscape Video Containers
+        </div>
+
+        <div class="reels-grid-horizontal">
+          <!-- 16:9 Container 3 -->
+          <div class="reel-card glass-panel" id="reelCard3">
+            <div class="reel-frame ratio-16-9">
+              <iframe src="https://drive.google.com/file/d/1HpHtrDlwBG-Mlnbqe1hjq103imYAoszy/preview" width="100%"
+                height="100%" allow="autoplay" frameborder="0" style="border:none; border-radius:18px;"></iframe>
+            </div>
+          </div>
+
+          <!-- 16:9 Container 4 -->
+          <div class="reel-card glass-panel" id="reelCard4">
+            <div class="reel-frame ratio-16-9">
+              <iframe src="https://drive.google.com/file/d/18YlpgRkxSQu3O3YoUiBESB47LwrwIQQw/preview" width="100%"
+                height="100%" allow="autoplay" frameborder="0" style="border:none; border-radius:18px;"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 3: Right-Left Combination (Scratch & Scripting) -->
+  <section class="combination-section" id="combination">
+    <div class="container">
+
+      <!-- Combination 1: Left Text, Right Interactive Card -->
+      <div class="combo-row">
+        <div class="combo-content">
+          <span class="section-tag">
+            <i class="fas fa-pen-nib"></i> End-to-End Content Architecture
+          </span>
+          <h3>We Build Content From <span class="gradient-text">Scratch & Scripting</span></h3>
+          <p>
+            Great editing alone can't save a weak concept. We write high-converting hooks, structure watch-time curves,
+            and craft narrative scripts tailored specifically for your target audience.
+          </p>
+
+          <ul class="feature-list">
+            <li>
+              <div class="feature-icon"><i class="fas fa-check"></i></div>
+              <span>Viral Hook Frameworks (Curiosity, Challenge, Controversy)</span>
+            </li>
+            <li>
+              <div class="feature-icon"><i class="fas fa-check"></i></div>
+              <span>Shot-by-Shot Storyboarding & Speaker Prompts</span>
+            </li>
+            <li>
+              <div class="feature-icon"><i class="fas fa-check"></i></div>
+              <span>Audience Psychology & Retention Curve Mapping</span>
+            </li>
+            <li>
+              <div class="feature-icon"><i class="fas fa-check"></i></div>
+              <span>Call-To-Action (CTA) Placement for Leads & Sales</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="combo-visual">
+          <div class="combo-card glass-panel">
+            <h4><i class="fas fa-scroll gradient-text"></i> Scripting & Hook Blueprint</h4>
+            <br>
+            <div class="timeline-interactive">
+              <div class="timeline-step">
+                <span class="step-num">01</span>
+                <div class="step-info">
+                  <h5>0-3 Seconds: The Pattern Interrupt</h5>
+                  <p>"Stop scrolling if you want 10k extra views this week..."</p>
+                </div>
+              </div>
+
+              <div class="timeline-step">
+                <span class="step-num">02</span>
+                <div class="step-info">
+                  <h5>3-15 Seconds: Core Value Delivery</h5>
+                  <p>Fast-paced proof points with dynamic on-screen text</p>
+                </div>
+              </div>
+
+              <div class="timeline-step">
+                <span class="step-num">03</span>
+                <div class="step-info">
+                  <h5>15-30 Seconds: Conversion Hook</h5>
+                  <p>"Drop a comment below and get the full template free."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Combination 2: Left Interactive Card, Right Text -->
+      <div class="combo-row reverse">
+        <div class="combo-visual">
+          <div class="combo-card glass-panel">
+            <h4><i class="fas fa-sliders-h gradient-text"></i> Precision Trimming & FX Suite</h4>
+            <br>
+            <div class="timeline-interactive">
+              <div class="timeline-step">
+                <span class="step-num"><i class="fas fa-cut"></i></span>
+                <div class="step-info">
+                  <h5>Zero-Silence Micro Trimming</h5>
+                  <p>Eliminates umms, ahhs, and pauses for continuous momentum</p>
+                </div>
+              </div>
+
+              <div class="timeline-step">
+                <span class="step-num"><i class="fas fa-closed-captioning"></i></span>
+                <div class="step-info">
+                  <h5>Animated Kinetic Subtitles</h5>
+                  <p>Hormozi-style glowing highlight captions & emojis</p>
+                </div>
+              </div>
+
+              <div class="timeline-step">
+                <span class="step-num"><i class="fas fa-volume-up"></i></span>
+                <div class="step-info">
+                  <h5>Immersive Audio & Sound FX</h5>
+                  <p>Whooshes, pops, risers, and balanced background tracks</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Waveform Visualizer -->
+            <div class="waveform-box">
+              <div class="wave-bar"></div>
+              <div class="wave-bar"></div>
+              <div class="wave-bar"></div>
+              <div class="wave-bar"></div>
+              <div class="wave-bar"></div>
+              <div class="wave-bar"></div>
+              <div class="wave-bar"></div>
+              <div class="wave-bar"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="combo-content">
+          <span class="section-tag">
+            <i class="fas fa-scissors"></i> Master Cut Editing
+          </span>
+          <h3>Pro Video Editing, <span class="gradient-text">Trimming & FX</span></h3>
+          <p>
+            Every single frame matters. We strip the filler, insert relevant B-roll clips, sync punchy sound effects,
+            and color grade your raw footage into high-end cinematic assets.
+          </p>
+
+          <ul class="feature-list">
+            <li>
+              <div class="feature-icon"><i class="fas fa-check"></i></div>
+              <span>Multi-Cam Synchronization & Micro Jump Cuts</span>
+            </li>
+            <li>
+              <div class="feature-icon"><i class="fas fa-check"></i></div>
+              <span>Custom 2D Motion Graphics & Icon Popups</span>
+            </li>
+            <li>
+              <div class="feature-icon"><i class="fas fa-check"></i></div>
+              <span>Color Grading & Skin Tone Optimization</span>
+            </li>
+            <li>
+              <div class="feature-icon"><i class="fas fa-check"></i></div>
+              <span>Exported in Ultra Crisp 4K / 1080x1920 Pro Video Formats</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 4: Workflow Steps Section -->
+  <section class="process-section" id="process">
+    <div class="container">
+      <span class="section-tag">
+        <i class="fas fa-project-diagram"></i> Simple 4-Step Pipeline
+      </span>
+      <h2 class="section-title">
+        How We Work <span class="gradient-text">With Your Brand</span>
+      </h2>
+      <p class="section-desc">
+        From raw ideas to viral ready 9:16 videos delivered directly to your inbox.
+      </p>
+
+      <div class="steps-grid">
+        <!-- Step 1 -->
+        <div class="step-card glass-panel">
+          <span class="step-card-num">01</span>
+          <h4>Business & Requirement Audit</h4>
+          <p>We analyze your brand tone, target customer persona, and content objectives to create a tailored content
+            roadmap.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card glass-panel">
+          <span class="step-card-num">02</span>
+          <h4>Trend & Hook Research</h4>
+          <p>We dissect top-performing viral formats in your specific niche to write magnetic hooks and narrative
+            scripts.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card glass-panel">
+          <span class="step-card-num">03</span>
+          <h4>Scripting & Raw Footage Upload</h4>
+          <p>You record raw clips using our provided script prompts and drop the files directly into your shared cloud
+            folder.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step-card glass-panel">
+          <span class="step-card-num">04</span>
+          <h4>Edit, Trim & Viral Delivery</h4>
+          <p>Our team trims, adds kinetic captions, sound FX, and color grading. Final 9:16 Reels delivered within 48
+            hours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Founder Photo & Contact Slide (Before Footer) -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-card-wrapper glass-panel">
+
+        <!-- Photo Slide Frame -->
+        <div class="photo-frame">
+          <img src="assets/images/profile.jpeg" alt="Alex Carter - Creative Director & Lead Video Editor">
+          <div class="photo-overlay-info">
+            <h4>Lal Basha</h4>
+            <p>Founder & Creative Lead Editor</p>
+            <div
+              style="margin-top: 8px; display: inline-flex; align-items: center; gap: 6px; background: rgba(16, 185, 129, 0.2); padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; border: 1px solid rgba(16, 185, 129, 0.4);">
+              <span style="width: 8px; height: 8px; background: #10b981; border-radius: 50%;"></span>
+              <span>Available for New Clients</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Details & Direct Booking Form -->
+        <div class="contact-details">
+          <span class="section-tag">
+            <i class="fas fa-envelope-open-text"></i> Direct Agency Consultation
+          </span>
+          <h3>Ready to Scale Your <span class="gradient-text">Short-Form Content?</span></h3>
+          <p>
+            Book a free 15-minute consultation call or submit your project details below to receive a custom sample
+            video edit.
+          </p>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" class="form-control" placeholder="e.g. Sarah Jenkins" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" placeholder="sarah@brand.com" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="projectType">Project Goal</label>
+                <select id="projectType" class="form-control" required>
+                  <option value="">Select Video Service</option>
+                  <option value="reels">Monthly Reels Editing (12-30 Reels)</option>
+                  <option value="scripting">Full Scripting + Editing Package</option>
+                  <option value="sample">Free Sample Video Edit</option>
+                  <option value="consultation">Strategic Advisory</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="budget">Monthly Budget Range</label>
+                <select id="budget" class="form-control">
+                  <option value="1k-3k">$1,000 - $3,000</option>
+                  <option value="3k-5k">$3,000 - $5,000</option>
+                  <option value="5k+">$5,000+</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Raw Footage Link or Requirements</label>
+              <textarea id="message" class="form-control" rows="3"
+                placeholder="Share Google Drive / Dropbox link or brief details about your brand..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">
+              <i class="fas fa-paper-plane"></i> Send Project Request
+            </button>
+          </form>
+
+          <div class="contact-direct-items">
+            <a href="mailto:lalbashaattari92@gmail.com" class="direct-item">
+              <i class="fas fa-envelope"></i> lalbashaattari92@gmail.com
+            </a>
+            <a href="https://wa.me/15550192834" target="_blank" class="direct-item">
+              <i class="fab fa-whatsapp"></i> +91 9381956760
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: Glass Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-left">
+          <a href="#home" class="logo">
+            <div class="logo-icon">
+              <i class="fas fa-scissors"></i>
+            </div>
+            <span>EDIT<span class="gradient-text">PRO</span></span>
+          </a>
+          <p>© 2026 EDITPRO Agency. All rights reserved. Premium Short-Form Video Editing & Scripting.</p>
+        </div>
+
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank" class="social-btn" title="Instagram"><i
+              class="fab fa-instagram"></i></a>
+          <a href="https://youtube.com" target="_blank" class="social-btn" title="YouTube"><i
+              class="fab fa-youtube"></i></a>
+
+          <a href="https://www.linkedin.com/in/lal-basha-shaik" target="_blank" class="social-btn" title="LinkedIn"><i
+              class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Alert -->
+  <div class="toast-notice" id="toastNotice"></div>
+
+  <!-- Interactive JavaScript Engine -->
+  <script src="script.js"></script>
+</body>
+
+</html>
